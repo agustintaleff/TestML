@@ -7,6 +7,7 @@ const ManejadorServer = function (req,res) {
     res.write('<H1>Hola puto 2</H1>');
     res.write('<H1>Agus Sobala</H1>');
     res.write('<H1>Colorado Ladron</H1>');
+    res.write('<H1>Semilla Ladron</H1>');
     res.end;
 }
 
