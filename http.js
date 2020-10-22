@@ -3,7 +3,7 @@ const colors = require('colors');
 
 const ManejadorServer = function (req,res) {
     res.writeHead(200,{'Content-type':'Text/html'})
-    res.write('<H1>Hola mundo 2</H1>');
+    res.write('<H1>Hola puto 2</H1>');
     res.end;
 }
 
