@@ -11,6 +11,7 @@ const ManejadorServer = function (req,res) {
     res.write('<H1>Luis colectivero</H1>');
     res.write('<H1>Geral Ratatouille</H1>');
     res.write('<H1>Nerius Cubano Balsero</H1>');
+    res.write('<H1>Oca Cara de Pija</H1>');
     res.end;
 }
 
