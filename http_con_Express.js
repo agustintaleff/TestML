@@ -3,7 +3,14 @@ const colors = require('colors');
 
 const server = express();
 
-server.get('/',function (req,res) {
+
+server.set('views', __dirname + '/views');
+
+server.get('/main',function (req,res) {
+    res.render('index.html');
+})
+
+server.get('/ip',function (req,res) {
     res.send(req.ip.toString());
     res.end;   
 })
